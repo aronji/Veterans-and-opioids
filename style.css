@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #fefefe;
+    background-color: #fdfdfd;
     color: #333;
     line-height: 1.6;
     padding-top: 70px; /* space for fixed navbar */
@@ -72,7 +72,56 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
+/* Blog Header */
+main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #222;
+}
 
+.blog-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Blog Image */
+main img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Blog Paragraphs */
+main p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Blockquotes */
+main blockquote {
+    border-left: 4px solid #007acc;
+    padding-left: 15px;
+    margin: 20px 0;
+    color: #555;
+    font-style: italic;
+    background-color: #f4f9ff;
+}
+
+/* Tags or categories */
+.blog-tags {
+    margin-top: 30px;
+}
+
+.blog-tags span {
+    background-color: #eee;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 0.85rem;
+}
 /* Footer */
 footer {
     background-color: #d68513;
