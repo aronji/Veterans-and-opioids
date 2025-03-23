@@ -18,7 +18,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #222;
+    background-color: #d68513;
     color: white;
     padding: 15px 0;
     z-index: 1000;
@@ -74,7 +74,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: #d68513;
     color: white;
     text-align: center;
     padding: 20px;
