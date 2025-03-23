@@ -65,6 +65,7 @@ nav ul li a:hover {
 /* Main content styling */
 main {
     max-width: 800px;
+    min-height: 75vh;
     margin: 40px auto;
     padding: 20px;
     background: #fff;
