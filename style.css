@@ -147,6 +147,7 @@ footer {
 
     nav ul.show {
         display: flex;
+        padding: inherit;
     }
 
     nav ul li {
