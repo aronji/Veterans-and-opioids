@@ -1,0 +1,6 @@
+.imgblk  img{
+    float: left;
+    padding-right: 10px;
+    height: auto;
+    width: auto;
+}
