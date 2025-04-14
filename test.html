@@ -2,58 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veterans and Opioids</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Minimalist Blog</title>
+    <link rel="stylesheet" href="teststyle.css">
+    <script src="testscript.js"></script>
 </head>
+  
 <body>
-    <header>
-        <nav>
-            <div class="logo">Veterans and Opioids</div>
-            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-            <ul id="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Solutions</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="references.html">References</a></li>
-                <li><a href="statistics.html">Statistics</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-
-        <h1> <!-- You can type your stuff here : Start-->
-                    title here<!-- End --></h1>
-        <div class="blog-meta">Published on March 7, 2025 · By Admin</div>
-    
-        <img src="images/black-history.jpg" alt="dummy images">
-    
-        <p><!-- You can type your stuff here : Start-->
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-             omnis molestias architecto dolore expedita. Ipsa illo sapiente totam mollitia deserunt!
-            <!-- End --></p>
-    
-        <blockquote><!-- You can type your stuff here : Start-->
-            “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni vel mollitia 
-            omnis inventore animi.” – Carter G. Woodson<!-- End -->
-        </blockquote>
-    
-        <p><!-- You can type your stuff here : Start-->
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, labore ullam. Natus, eaque! 
-            Repellendus quasi fuga voluptas quo delectus quos sint similique illo exercitationem dolores? 
-            Minima quos excepturi voluptatum odit.<!-- End --></p>
-    
-        <div class="blog-tags">
-            <span>#Veterans</span>
-            <span>#OpioidAbuse</span>
-            <span>#Medical</span>
+    <nav class="navbar">
+        <div class="nav-container">
+          <a href="index.html" class="logo">My Blog</a>
+          <div class="nav-buttons">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+          </div>
         </div>
-    </main>
+        <ul class="nav-links" id="navMenu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      
+    <header>
+        <h1>My Minimalist Blog</h1>
+        <p>Thoughts, stories, and ideas</p>
+    </header>
+    <img src="images/GRE-L-OpioidsPart1-02.webp" alt="dummy images">
+
+    <article>
+        <h2>The History of Black History Month</h2>
+        <p>In 1915, Carter G. Woodson co-founded the Association for the Study of Negro Life and History...</p>
+        
+        <blockquote>
+            “Those who have no record of what their forebears have accomplished lose the inspiration which comes from the teaching of biography and history.” — Carter G. Woodson
+        </blockquote>
+
+        <p>The celebration began as Negro History Week and evolved into Black History Month in 1976...</p>
+    </article>
 
     <footer>
-        <p>&copy; 2025 Veterans and Opioids Website</p>
+        &copy; 2025 My Minimalist Blog
     </footer>
-</body>
+</body>    
 </html>
