@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #fdfdfd;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background: #282828;
+    color: #ffffff;
     line-height: 1.6;
     padding-top: 70px; /* space for fixed navbar */
 }
@@ -18,7 +18,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #d68513;
+    background-color: #111;
     color: white;
     padding: 15px 0;
     z-index: 1000;
@@ -68,15 +68,11 @@ main {
     min-height: 75vh;
     margin: 40px auto;
     padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 /* Blog Header */
 main h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #222;
 }
 
 .blog-meta {
@@ -99,23 +95,13 @@ main p {
     font-size: 1.1rem;
 }
 
-/* Blockquotes */
-main blockquote {
-    border-left: 4px solid #007acc;
-    padding-left: 15px;
-    margin: 20px 0;
-    color: #555;
-    font-style: italic;
-    background-color: #f4f9ff;
-}
-
 /* Tags or categories */
 .blog-tags {
     margin-top: 30px;
 }
 
 .blog-tags span {
-    background-color: #eee;
+    background-color: #929292;
     color: #333;
     padding: 5px 10px;
     border-radius: 4px;
@@ -124,7 +110,7 @@ main blockquote {
 }
 /* Footer */
 footer {
-    background-color: #d68513;
+    background-color: #303030;
     color: white;
     text-align: center;
     padding: 20px;
@@ -139,6 +125,7 @@ footer {
         flex-direction: column;
         background-color: #222;
         position: absolute;
+        align-items: baseline;
         top: 60px;
         left: 0;
         right: 0;
@@ -148,6 +135,7 @@ footer {
     nav ul.show {
         display: flex;
         padding: inherit;
+        animation: slideDown 0.3s ease-out forwards;
     }
 
     nav ul li {
@@ -160,6 +148,16 @@ footer {
         font-size: 24px;
         color: #fff;
     }
+    @keyframes slideDown {
+        0% {
+          transform: translateY(-10px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
 }
 
 

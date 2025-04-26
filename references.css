@@ -8,7 +8,7 @@
 .references li {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f3f3f3;
+    background-color: #909090;
     border-left: 4px solid #444;
     border-radius: 5px;
     transition: background 0.3s;
@@ -17,6 +17,7 @@
 /* Hover effect */
 .references li:hover {
     background-color: #eaeaea;
+    color: black;
 }
 
 /* Links in references */
